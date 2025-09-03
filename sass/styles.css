@@ -43,7 +43,7 @@ body .progress {
   position: absolute;
   top: 50%;
   left: 0;
-  width: 50%;
+  width: 0%;
   height: 4px;
   transform: translateY(-50%);
   transition: all 0.4s ease;
@@ -63,6 +63,7 @@ body .circle {
 }
 body .circle.active {
   border-color: #3498db;
+  transition-delay: 0.4s;
 }
 body .btn {
   background-color: #3498db;
